@@ -7,7 +7,7 @@ from discord.ext import commands
 
 global prefix
 global activity
-TOKEN = "NzM2NTE0NzE0Mzk3NTczMTcw.Xxv6xw.6TqZn7qmxzEGJK6q1Ay8smsPKQ4"
+TOKEN = "caché"
 prefix = "f!"
 activity = discord.Game(name=prefix+"help")
 bot = commands.Bot(command_prefix = commands.when_mentioned_or(prefix))
