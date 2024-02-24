@@ -1,0 +1,43 @@
+:root {
+    --couleurPixelNeutre: #344648;
+    --couleurPixelColore: #FBE0C3;
+}
+
+.zonedessin {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pixel {
+    background-color: var(--couleurPixelNeutre);
+    /*  border: var(--couleurPixelColore) 1px solid;*/
+    flex: 0 0 0.5rem;
+    height: 0.5rem;
+    cursor: pointer;
+    border-radius: 1px;
+}
+
+.pixel--coloré {
+    background-color: var(--couleurPixelColore);
+}
+
+.couplePixels {
+    display: flex;
+    flex: 0 0 1.5rem;
+}
+
+ul#lesPoids {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+#lesPoids li {
+    background-color: var(--couleurPixelNeutre);
+    color: var(--couleurPixelColore);
+    padding: 0.5rem 1rem;
+    flex: 0 1 2rem;
+    margin-bottom: 1rem;
+    margin-right: 0.5rem;
+    border-radius: 50%;
+}

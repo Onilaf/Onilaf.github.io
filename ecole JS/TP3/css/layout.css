@@ -1,0 +1,96 @@
+/*** layout.css ***/
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {}
+
+
+/*** Menu *******/
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 0.5rem;
+}
+
+
+/**** Main ***/
+
+main {
+    padding: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+}
+
+article {
+    padding: 0.3rem 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+article ul {
+    padding: 1rem;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+article li {
+    line-height: 1.5
+}
+
+article p {
+    padding: 0.5rem 1rem;
+}
+
+.bouton {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.3rem 1rem;
+    border: solid #EEE 1px;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    backface-visibility: hidden;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+
+/*** Indices *************/
+
+.indice {
+    transition: all 0.5s ease;
+}
+
+.indice.invisible {
+    opacity: 0;
+    transform: scaleY(0);
+}
+
+body>aside {
+    padding: 2rem;
+    padding-top: 1rem;
+}
+
+body>footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 0.5rem 1rem;
+    text-align: right;
+}

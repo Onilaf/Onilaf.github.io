@@ -1,0 +1,74 @@
+/**** Look.css ********/
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    font-family: "Roboto Condensed";
+}
+
+body>header {
+    background-color: rgba(0, 0, 0, 1);
+    color: #EEE;
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 3rem;
+    padding: 0;
+    margin-bottom: 0.5rem;
+}
+
+header>h2 {
+    font-size: 1.5rem;
+}
+
+
+/***** Menu ***********/
+
+nav a {
+    color: #eee;
+    text-decoration: none;
+}
+
+h3 {
+    /* border-bottom: 1px solid #555; */
+    font-size: 1.6rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.selection {
+    background: #555;
+}
+
+.bouton {
+    background-color: #222;
+    font-size: 1rem;
+    color: #eee;
+    transition: all ease-in-out 0.2s;
+}
+
+.bouton:hover {
+    background-color: #000;
+    color: #fff;
+    border-color: #fff;
+    /* transform: scaleX(1.05) scaleY(1.05);*/
+}
+
+.bouton:active {
+    color: #fff;
+    border-color: #fff;
+    transform: scaleX(0.95) scaleY(0.95);
+}
+
+body>footer {
+    color: #AAA;
+    background-color: rgba(25, 25, 25, 0.8)
+}

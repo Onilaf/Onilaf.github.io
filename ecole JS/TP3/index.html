@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Duminy Quentin - Sujet 3</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/look.css">
+    <link rel="stylesheet" href="css/zonedessin.css">
+    <script src="js/comportements.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <h1>Javascript - TP noté</h1>
+        <h2>Duminy Quentin - Sujet n°3</h2>
+    </header>
+
+    <main>
+        <article id="ex1">
+            <h3>Exercice 1</h3>
+            <div class="zonedessin">
+                <div class="pixel" data-poids="2"></div>
+            </div>
+            <p>Poids de ce pixel : <span class="poids"></span></p>
+        </article>
+
+        <article id="ex2">
+            <h3>Exercice 2</h3>
+            <div class="zonedessin">
+
+            </div>
+            <span class="bouton recommencer">Effacer</span>
+        </article>
+        <article id="resultats">
+            <h3>Votre score</h3>
+            <p>Poids du dernier pixel cliqué : <span class="score"></span></p>
+            <p>Liste des poids des pixels cliqués :</p>
+            <ul id="lesPoids"></ul>
+        </article>
+        <article id="ex3">
+            <h3>Exercice 3</h3>
+            <div class="zonedessin">
+                <div class="couplePixels">
+                    <div class="pixel grandFrere" data-poids="2"></div>
+                    <div class="pixel pixel--coloré petitFrere" data-poids="3"></div>
+                </div>
+                <div class="couplePixels">
+                    <div class="pixel pixel--coloré grandFrere" data-poids="2"></div>
+                    <div class="pixel petitFrere" data-poids="3"></div>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <footer>Université de La Rochelle</footer>
+</body>
+
+</html>
